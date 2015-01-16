@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# update gitconffig
-cp git/.gitconfig ~/.gitconfig
-cp vim/.vimrc  ~/.vimrc
-cp bash/.bashrc ~/.bashrc
-cp input/.inputrc ~/.inputrc

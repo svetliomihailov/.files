@@ -122,6 +122,7 @@ eval "$(rbenv init -)"
 source ~/Documents/configs/bash/prompt.bash
 source ~/Documents/configs/bash/aliases.bash
 source ~/Documents/configs/bash/paths.bash
+source ~/Documents/configs/git/git-prompt.sh
 
 # use 256 color terminal
 TERM=xterm-256color

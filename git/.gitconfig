@@ -36,13 +36,34 @@
 
 [merge]
   tool = vimfiff
-  #ff = false
+  # force git to create a merge comit even if the merge is resolved as fast forward
+  ff = false
 
 [help]
-#  autocorrect = 1
+  autocorrect = 50
 
 [color]
-#  ui = on
+  # allows the output to be colored!
+  ui = on
 
 [difftool]
-#  prompt = false
+  # prompt before each invocation of the diff tool
+  prompt = false
+
+[color "branch"]
+  current = green
+  local = yellow
+  remote = red
+
+[color "diff"]
+  # meta = yellow
+  # frag = yellow
+  old = red
+  new = green
+  # whitespace = red reverse
+
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = red
+
