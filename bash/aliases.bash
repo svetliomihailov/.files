@@ -5,6 +5,9 @@
 # alias ll='ls -lh'
 alias la='ls -al'
 alias l='ls -1'
+# alias ll='ls -alF'
+# alias l='ls -CF'
+
 
 # week number
 alias week='date +%V'
