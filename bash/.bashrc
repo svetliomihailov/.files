@@ -109,6 +109,15 @@ source ~/Documents/some_configs/bash/prompt.bash
 source ~/Documents/some_configs/bash/aliases.bash
 source ~/Documents/some_configs/bash/paths.bash
 source ~/Documents/some_configs/git/git-prompt.sh
+# This one is specific for the OSX - it is not needed on the linux machine
+source /usr/local/etc/bash_completion
 
 # use 256 color terminal
 TERM=xterm-256color
+
+# This one is specific for the OSX - it is not needed on the linux machine
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
