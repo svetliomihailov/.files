@@ -5,3 +5,9 @@ fi
 
 # This one is specific for the OSX - it is not needed on the linux machine
 source /usr/local/etc/bash_completion
+
+EDITOR="vi"
+export EDITOR="$EDITOR"
+
+alias vi="$EDITOR"
+alias vim="$EDITOR"

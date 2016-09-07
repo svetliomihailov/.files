@@ -8,3 +8,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+EDITOR="vim"
+export EDITOR="$EDITOR"
+alias vi="$EDITOR"
