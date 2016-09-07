@@ -8,7 +8,6 @@ alias l='ls -1'
 # alias ll='ls -alF'
 # alias l='ls -CF'
 
-
 # week number
 alias week='date +%V'
 alias day='date +%a | tr \"[:upper:]\" \"[:lower:]\"'
@@ -19,9 +18,11 @@ alias ggg='git stt'
 alias gd='git diff'
 alias gl='git oneline'
 
-# rails
-# alias sp='bundle exec rspec'
-alias be='bundle exec'
+# bundle
+alias b="bundle"
+alias bi="b install"
+alias bu="b update"
+alias be="b exec"
 
 # dir size
 alias dirsize='du -c -h'

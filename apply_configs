@@ -1,14 +1,15 @@
 #!/bin/bash
-
 cp git/.gitconfig ~/.gitconfig
-cp vim/.vimrc  ~/.vimrc
-cp bash/.bashrc ~/.bash_profile
-cp input/.inputrc ~/.inputrc
 
-# Sublime text files
-# OS X
-cp sublime/Preferences.sublime-settings  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Preferences.sublime-settings
-# Linux
-# cp sublime/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User
-# Linux
-# cp sublime/Default\ \(Linux\).sublime-keymap ~/.config/sublime-text-3/Packages/User
+cp vim/.vimrc  ~/.vimrc
+
+cp shell/.bashrc ~/.bash_profile
+cp shell/.bashrc ~/.bashrc
+cp shell/.inputrc ~/.inputrc
+
+if [ $(uname) = "Darwin" ]; then
+  cp sublime/Preferences.sublime-settings  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Preferences.sublime-settings
+elif [ $(uname) = "Linux" ]; then
+  cp sublime/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User
+  cp sublime/Default\ \(Linux\).sublime-keymap ~/.config/sublime-text-3/Packages/User
+fi
