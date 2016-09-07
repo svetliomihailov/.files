@@ -9,6 +9,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# If set, the pattern "**" used in a pathname expansion context will
+# match all files and zero or more directories and subdirectories.
+shopt -s globstar
+
 EDITOR="vim"
 export EDITOR="$EDITOR"
 alias vi="$EDITOR"
