@@ -31,3 +31,4 @@ set splitright         " Open vertical splits on the right side
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
+syntax on

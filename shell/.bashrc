@@ -21,9 +21,7 @@ source ~/config_files/shell/aliases.sh
 source ~/config_files/shell/history.sh
 source ~/config_files/git/git-prompt.sh
 source ~/config_files/shell/rvm.sh
-
-# use 256 color terminal
-TERM=xterm-256color
+source ~/config_files/shell/colours.sh
 
 if [ $(uname) = "Darwin" ]; then
   source ~/config_files/mac.sh
