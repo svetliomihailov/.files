@@ -7,4 +7,10 @@
   "use_tab_stops": true,
   "spell_check": true,
   "ensure_newline_at_eof_on_save": true,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "rulers":
+  [
+    80
+  ]
 }
