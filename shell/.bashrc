@@ -20,7 +20,6 @@ source ~/config_files/shell/prompt.sh
 source ~/config_files/shell/aliases.sh
 source ~/config_files/shell/history.sh
 source ~/config_files/git/git-prompt.sh
-source ~/config_files/shell/rvm.sh
 source ~/config_files/shell/colours.sh
 
 if [ $(uname) = "Darwin" ]; then
