@@ -21,6 +21,7 @@ source ~/config_files/shell/aliases.sh
 source ~/config_files/shell/history.sh
 source ~/config_files/git/git-prompt.sh
 source ~/config_files/shell/colours.sh
+source ~/config_files/shell/ruby_management.sh
 
 if [ $(uname) = "Darwin" ]; then
   source ~/config_files/mac.sh
