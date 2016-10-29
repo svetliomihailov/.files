@@ -6,6 +6,6 @@ if [ -d "$HOME/.rbenv" ]; then
   export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 fi
 
-if [ -d "$HOME/.rvn" ]; then
+if [ -d "$HOME/.rvm" ]; then
   source ~/.rvm/scripts/rvm
 fi
