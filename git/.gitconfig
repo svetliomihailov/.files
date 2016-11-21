@@ -10,7 +10,7 @@
  oneline = log --oneline --decorate -24
  st = status --short
  stt = status
- ammend = comit --ammend
+ ammend = commit --ammend
  co = checkout
  cb = checkout -b
  ci = commit --verbose
