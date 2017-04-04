@@ -4,6 +4,7 @@ cp vim/.vimrc  ~/.vimrc
 cp shell/.bashrc ~/.bash_profile
 cp shell/.bashrc ~/.bashrc
 cp shell/.inputrc ~/.inputrc
+cp ruby/.gemrc ~/.gemrc
 
 if [ $(uname) = "Darwin" ]; then
   cp sublime/Preferences.sublime-settings  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Preferences.sublime-settings
