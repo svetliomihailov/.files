@@ -8,6 +8,7 @@ cp ruby/.gemrc ~/.gemrc
 
 if [ $(uname) = "Darwin" ]; then
   cp sublime/Preferences.sublime-settings  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Preferences.sublime-settings
+  cp sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Default\ \(OSX\).sublime-keymap
 elif [ $(uname) = "Linux" ]; then
   cp sublime/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/
   cp sublime/Default\ \(Linux\).sublime-keymap ~/.config/sublime-text-3/Packages/User/
