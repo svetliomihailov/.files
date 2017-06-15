@@ -4,4 +4,7 @@
 
   { "keys": ["command+k", "command+b"], "command": "toggle_side_bar" },
   { "keys": ["command+f2"], "command": "toggle_minimap" },
+
+  { "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+  { "keys": ["ctrl+shift+d"], "command": "toggle_trailing_spaces" }
 ]
