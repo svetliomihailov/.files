@@ -40,4 +40,3 @@ alias used='df -h | grep /$ | cut -c 41-43'
 search_git_diff_history() {
   git log -S$1
 }
-
