@@ -2,6 +2,7 @@
 
 export PATH="/usr/local/sbin:$PATH"
 
+# "sed: RE error: illegal byte sequence" comes from the bash_completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
