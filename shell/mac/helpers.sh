@@ -15,3 +15,7 @@ gfind() {
   fi
 }
 
+terminate_spring() {
+  ps aux | grep spring
+  ps aux | grep spring | awk '{print $2}' | xargs kill -9
+}

@@ -32,11 +32,11 @@ alias becp='bec -f progress'
 # dir size
 alias dirsize='du -c -h'
 
-# used disk space
-alias used='df -h | grep /$ | cut -c 41-43'
-
 
 # A function for searching in git history:
 search_git_diff_history() {
   git log -S$1
 }
+
+# Check the weather:
+alias weather="curl http://wttr.in/"

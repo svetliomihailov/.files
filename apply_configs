@@ -1,15 +1,10 @@
 #!/bin/bash
-cp git/.gitconfig ~/.gitconfig
-cp vim/.vimrc  ~/.vimrc
-cp shell/.bashrc ~/.bash_profile
-cp shell/.bashrc ~/.bashrc
-cp shell/.inputrc ~/.inputrc
-cp ruby/.gemrc ~/.gemrc
+ln -sfi ~/.files/git/.gitconfig ~/.gitconfig
+ln -sfi ~/.files/vim/.vimrc ~/.vimrc
+ln -sfi ~/.files/shell/.inputrc ~/.inputrc
+ln -sfi ~/.files/ruby/.gemrc ~/.gemrc
 
-if [ $(uname) = "Darwin" ]; then
-  cp sublime/Preferences.sublime-settings  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Preferences.sublime-settings
-  cp sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Default\ \(OSX\).sublime-keymap
-elif [ $(uname) = "Linux" ]; then
-  cp sublime/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/
-  cp sublime/Default\ \(Linux\).sublime-keymap ~/.config/sublime-text-3/Packages/User/
-fi
+ln -sfi ~/.files/shell/.bashrc_replacement ~/.bash_profile
+ln -sfi ~/.files/shell/.bashrc_replacement ~/.bashrc
+
+# TODO: Manually apply visual studio code settings or migrate ot VIM.

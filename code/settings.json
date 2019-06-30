@@ -1,0 +1,70 @@
+{
+    "search.location": "panel",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Dracula At Night",
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.autoClosingBrackets": true,
+    "editor.cursorWidth": 2,
+    "editor.trimAutoWhitespace": false,
+    "files.insertFinalNewline": true,
+    "extensions.autoUpdate": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/.idea": true,
+        "**/android": true,
+        "**/ios": true,
+        "**/.vscode": false,
+        "**/yarn.lock": true,
+        "**/tmp": true,
+        "**/deps": true,
+        "**/_build": true,
+        "**/.next": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true,
+        "**/tmp": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/tmp": true,
+        "**/coverage": true,
+        "**/deps": true,
+        "**/_build": true,
+        "**/.next": true,
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "erb": "html"
+    },
+    "editor.rulers": [
+        100
+    ],
+    "breadcrumbs.enabled": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "elixirLinter.useStrict": true,
+    "languageServerCredo.flags": "--strict",
+    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+    "editor.formatOnSave": true,
+    "ruby.lint": {
+        "rubocop": true
+    },
+    "explorer.autoReveal": false,
+    "eslint.run": "onSave",
+    "elixirLS.suggestSpecs": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+}
