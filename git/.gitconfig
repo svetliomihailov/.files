@@ -6,14 +6,11 @@
 #  user = svetliomihailov
 
 [alias]
- lol = log --oneline --graph --decorate
- oneline = log --oneline --decorate -24
- st = status --short
- stt = status
- ammend = commit --ammend
- co = checkout
- cb = checkout -b
- ci = commit --verbose
+  lol = log --oneline --graph --decorate
+  oneline = log --oneline --decorate -24
+  co = checkout
+  cb = checkout -b
+  ci = commit --verbose
 
 [core]
   editor = vim
@@ -59,11 +56,8 @@
   remote = red
 
 [color "diff"]
-  # meta = yellow
-  # frag = yellow
   old = red
   new = green
-  # whitespace = red reverse
 
 [color "status"]
   added = green

@@ -1,2 +1,4 @@
-Those are my config files.
-I have the git-prompt.sh from the https://github.com/git/git repo
+### Usage
+
+1. clone the repository in your home directory
+2. run `./apply_configs.sh`
