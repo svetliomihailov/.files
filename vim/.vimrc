@@ -26,7 +26,7 @@ set t_Co=256
 hi Comment ctermfg=LightBlue
 hi Constant ctermfg=LightBlue
 
-" Tabs and spaces  
+" Tabs and spaces
 set tabstop=2         " Tab stop of 4
 set shiftwidth=2      " Sw 4 spaces (used on auto indent)
 set softtabstop=2     " 4 spaces as a tab for bs/del

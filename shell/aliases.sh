@@ -1,20 +1,10 @@
-#!/bin/bash
-
-# some more ls aliases
-# alias ls='ls -GF'
-# alias ll='ls -lh'
+# ls
 alias la='ls -al'
-alias l='ls -1'
-# alias ll='ls -alF'
-# alias l='ls -CF'
-
-# week number
-alias week='date +%V'
-alias day='date +%a | tr \"[:upper:]\" \"[:lower:]\"'
+alias ll='ls -alF'
 
 # git
-alias gg='git st'
-alias ggg='git stt'
+alias gg='git status --short'
+alias ggg='git status'
 alias gd='git diff'
 alias gl='git oneline'
 alias gdh='search_git_diff_history'

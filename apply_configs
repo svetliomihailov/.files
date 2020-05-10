@@ -1,10 +1,6 @@
-#!/bin/bash
 ln -sfi ~/.files/git/.gitconfig ~/.gitconfig
 ln -sfi ~/.files/vim/.vimrc ~/.vimrc
-ln -sfi ~/.files/shell/.inputrc ~/.inputrc
 ln -sfi ~/.files/ruby/.gemrc ~/.gemrc
+ln -sfi ~/.files/shell/.zshrc ~/.zshrc
 
-ln -sfi ~/.files/shell/.bashrc_replacement ~/.bash_profile
-ln -sfi ~/.files/shell/.bashrc_replacement ~/.bashrc
-
-# TODO: Manually apply visual studio code settings or migrate ot VIM.
+# TODO: Apply visual studio code settings or migrate ot VIM.
